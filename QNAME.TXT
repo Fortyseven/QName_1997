@@ -1,0 +1,63 @@
+		  =Q-NAME=================================
+		   The DOS Freeware Quake "Fun Name" Tool
+		  ========================================
+			    By: FortySeven[NOVA]
+			    www.halflife.org/nova
+			     hacsoft.home.ml.org
+		  ========================================
+
+
+THE STORY SO FAR
+----------------
+
+	Being pissed with people actually charging money for such a
+simplistic tool, I decided to write my own.  You know the drill, I'd written
+it for myself, but then decided that everyone might find use for it, so I put
+a copy of the original up on my homepage, and told Blues News about it (and
+was greeted with an overwhelming response of silence, but I hear that they do
+that sort of thing nowadays, it's all the rage).
+
+	Anyways, forward about a month or two (or four), and I find out that
+some locals started a clan called Nova Marines (previously, Clan 203).  I'd
+been asked before if I wanted to join, but I declined, though, this time I
+took them up on their offer.  Turns out it was a good move.  I'd vowed never
+to join a clan, but for some reason, being the hypocritical bastard I can
+often be, I was lured in by how cool everyone was, and hey, they were in the
+same local calling area, or around there, and not scattered all over the
+globe. :) Turns out they were very talented Team Fortress players (among
+other popular games), so I was in good Quake 1 company. :)
+
+	As time went on, Tintivilous[NOVA] was on my homepage and saw the
+small QNAME archive I'd posted, and wanted to link to it from the Nova
+homepage.  By that time, I'd long forgotten about QNAME, but still had the
+development directory on my drive, so I told 'em to hold off a little so I
+could spruce it up, and get rid of some bugs.
+
+	This is what you have in a dir on your drive right now. :)
+
+	I know of at least one bug (pressing [ENTER] creates a char in your
+name, but if you save it, it saves as a carriage return), but I'm sure there
+are plenty of little bastards just waiting for me to upload this before they
+come out to party. :P
+
+	I'll add things if I can, like perhaps Quake 2 'fun name' support,
+which I'm told was added to the latest Q2 patch (I'll have to double check
+that one).  But for the most part, my time will be spent on another 'little'
+project of mine (and several others) which you can read a little bit about at
+hacsoft.home.ml.org's project page.
+
+
+THE MEANS
+---------
+
+	1. Type QNAME.
+	2. See lame intro.  (Put anything on the command line to skip!)
+	3. Press a key.
+	4. Start typing, or clicking.
+	5. Press [ESC]
+	6. Choose your destiny, or press [ESC] again to QUIT.  (Careful!)
+
+THE END
+-------
+
+	Bye!

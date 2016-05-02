@@ -1,0 +1,73 @@
+			 xxx   x   x
+			x   x  xx  x  xx  x   x xxxx
+			x   x  x x x x  x xx xx xx
+			x  xx  x  xx xxxx x x x x
+			 xxxx  x   x x  x x   x xxxx
+			     x
+				    QName
+				    v1.0
+
+			      12-09-97 04:24am
+
+QName helps those who enjoy multiplayer QuakeWorld and want to easily create 
+one of those spiffy "graphical" names that we see all over the place. ;)
+
+What it is, is those characters are not, for the most part, straight ASCII
+characters, so you have to have a chart with ASCII codes, and a chart with
+Quake characters and translate between them.
+
+With this program, you can visually create your spiffy name, and save it to a
+.CFG file without the need to use a table to look up your characters.
+
+I recommend adding the following to your AUTOEXEC.CFG file in your /quake/id1
+directory:
+
+	exec name.cfg
+
+Then make your sig in QNAME (by clicking on the letters, using the right
+mouse button to backspace), and press [ESC] to quit.  A dialog box will pop
+up so you can save your name.  Save it, and place it in your /quake/id1
+directory.  Then, when you want to change your name, or change it around, you
+can just make a new one, and overwrite the file, and everything is done.  No
+cutting and pasting required.
+
+There is another Quake name program out there, but it's for Windows.  I hate
+Windows only apps.
+
+This is why I wrote QNAME.
+
+QNAME is a quick fast DOS alternative written in about a day with DJGPP and
+Allegro.  (Which, BTW, works fine under Windows 95 if you're into that sort 
+of thing...:))
+
+All graphics are property of iD Software, and ripped from the .PAK files of
+the registered version.
+
+If there is demand, I'll include keyboard support so you won't need to use a
+mouse.
+
+Oh, and QNAME is a DJGPP app, so it requires a DPMI server.  CWSDPMI has been
+included, but can be run under any DPMI server, including Windows' DOS box.
+
+Anyways, see you in QuakeWorld.  I use the name "Fourty Seven" most of the
+time...and I usually wind up playing TeamFortress.  It's my new addiciton. ;)
+
+Bugs?  Free hardware?  Send me some mail.  Be sure to put "QNAME" somewhere
+in the subject.
+
+			      		    - hac@digivill.net
+					      hacsoft.home.ml.org/home.htm
+
+Latest version should be available at: 
+
+        http://hacsoft.home.ml.org/qname.zip
+
+Links of interest:
+
+	Agnostic Front      (203)-457-9427
+	Outerworld          (203)-669-3229
+	Digital Underground (203)-281-1265
+
+	www.digivill.net (and all it's user pages)
+	www.wAnkerCAM.com
+	www.cfug.org

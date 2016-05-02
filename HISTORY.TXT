@@ -1,0 +1,20 @@
+July 24, 1998 @ 10:26.57p
+=========================
+    Fixed what was probably something that, at another time, would never have
+    been fixable by me...but I figured it out.  I had an off-by-one problem
+    in the main name string (cur_name), and was writing to the next byte
+    after the end of the space allocated for it.  Amazingly, that next byte
+    was the Character Pointer (cp), that was keeping track of where I was in
+    the string.  Since I was blotting out the next char with a NULL
+    character, it was setting the cp to 0, rather than just staying at 28 or
+    whatever the max is set to.  The damned thing was resetting the name
+    because of that.  On a whim, I looked at the variable declarations, and
+    sure enough, I'd decalared them one after another (cur_name, and then
+    cp).  It had never really sunk in that the variables would be allocated
+    so close together, even though the alternative makes less sense. :P   So,
+    now, thats gone.
+
+    Also, before tackling that, I added a new opening title sequence.  Yeah,
+    I agree that it's unnecessary, and quite excessive, but hey, I had fun.
+    Also, you can bypass it by just passing ANY command line.  Just a little
+    thing I did for fun.
